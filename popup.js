@@ -11,7 +11,7 @@ var countNode = document.createElement("span");
 titleNode.className = "item-count";
 
 function itemTemplate(id, title, count) {
-  return "<a class='item-title' target='_self' href='https://news.ycombinator.com/item?id="+id+"'>"+title+"</span> <span class='item-count'>"+count+"</a>"
+  return "<a class='item-title' target='_self' href='https://news.ycombinator.com/item?id="+id+"'>"+title+"</a> <span class='item-count'>"+count+"</span>"
 }
 
 watchingItems.forEach((i) => {
