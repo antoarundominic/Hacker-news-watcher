@@ -1,0 +1,12 @@
+.hn-container {
+  padding: 0;
+  width: 300px;
+  list-style: none;
+}
+li.item-container {
+    margin: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+.item-count {
+  float: right;
+}
