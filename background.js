@@ -1,5 +1,5 @@
 
-var pollInterval = 1000 * 30; // 2 minute, in milliseconds
+var pollInterval = 1000 * 60 * 5; // 5 minute, in milliseconds
 var timerId;
 var badgeCount=0;
 
